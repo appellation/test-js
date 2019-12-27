@@ -1,3 +1,5 @@
+import { foo } from './foo';
+
 export default params => {
-  console.log(`hello ${params}`);
+  console.log(`${foo} ${params}`);
 }
